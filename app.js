@@ -20,6 +20,8 @@ playerTwoName = 'Player 2' // prompt('What is Player One\'s name? ');
 
 init();
 
+// can use the .value property to get .value of a field 
+
 document.querySelector('form').addEventListener('submit', (e) => {
     const formData = new FormData(e.target);
     playerOneName = formData.get('field-a');
@@ -73,7 +75,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
         document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
 
         // check if the player won the game
-        if (scores[activePlayer] >= 10) {
+        if (scores[activePlayer] >= 50) {
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             document.getElementById('name-' + activePlayer).textContent = 'Winner!';
