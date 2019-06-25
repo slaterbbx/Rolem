@@ -16,6 +16,7 @@
 }
 
 body {
+		/* Photograph by: https://unsplash.com/@erwanhesry */
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url('./images/fireworks.jpg');
     background-size: cover;
     background-position: center;
@@ -331,3 +332,4 @@ i {
         opacity: 0;
         transform: translateY(-100%);
     }
+	}
