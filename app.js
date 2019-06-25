@@ -45,7 +45,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () { // T
         document.querySelector('.dice').style.display = 'block';
 
         // when dice number changes, change dice png link based on number
-        diceDOM.src = 'dice-' + dice + '.png';
+        diceDOM.src = './images/dice-' + dice + '.png';
 
         // if dice rolls same number 2x then show flash
         prevRoll === dice ? diceDOM.classList.add('dice-scale-and-flash') : diceDOM.classList.remove('dice-scale-and-flash')
