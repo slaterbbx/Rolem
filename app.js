@@ -11,12 +11,8 @@ GAME RULES:
 
 var scores, roundScore, activePlayer, prevRoll, playerOneName, playerTwoName, gamePlaying;
 
-// saves previous roll for design functionality ( dice flash )
 playerOneName = 'Player 1' // prompt('What is Player One\'s name? ');
 playerTwoName = 'Player 2' // prompt('What is Player One\'s name? ');
-
-// document.getElementById('name-0').textContent = playerOneName;
-// document.getElementById('name-1').textContent = playerTwoName;
 
 init();
 
